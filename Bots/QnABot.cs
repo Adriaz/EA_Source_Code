@@ -33,7 +33,7 @@ namespace QnAPrompting.Bots
                 // Greet anyone that was not the target (recipient) of this message.
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hi, I’m Andromeda, the digital alter ego of Adrian! I hope I can help you to answer some of your questions today."), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Greetings there! I’m Andromeda, the ambitiously evolving digital alter ego of Adrian!"), cancellationToken);
                 }
             }
         }
