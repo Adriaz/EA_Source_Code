@@ -55,7 +55,7 @@ namespace QnAPrompting.Helpers
         {
             var options = new QnAMakerOptions
             {
-                QnAMakerOptions.ScoreThreshold = 0.3F;
+                scoreThreshold: = 0.5,
                 Top = 3
             };
 
